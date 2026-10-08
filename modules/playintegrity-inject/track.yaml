@@ -1,4 +1,0 @@
-id: playintegrityfork
-enable: true
-source: https://github.com/KOWX712/PlayIntegrityFix
-update_to: https://fastly.jsdelivr.net/gh/KOWX712/playintegrityfix@inject_s/update.json
