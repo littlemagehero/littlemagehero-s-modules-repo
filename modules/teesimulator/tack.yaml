@@ -1,0 +1,4 @@
+id: teesim
+enable: true
+source: https://github.com/JingMatrix/TEESimulator
+update_to: https://raw.githubusercontent.com/JingMatrix/TEESimulator/dev/module/update.json
