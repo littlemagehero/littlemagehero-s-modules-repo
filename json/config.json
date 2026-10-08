@@ -1,12 +1,12 @@
 {
-  "name": "Template Magisk Modules Repository",
+  "name": "littlemagehero's Root Modules Repository",
   "website": null,
   "support": null,
   "donate": null,
   "submission": null,
-  "base_url": "https://example.com/",
-  "description": null,
-  "max_num": 2,
+  "base_url": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/",
+  "description": "My quality modules list and goated devs that makes quality modules (based on me)",
+  "max_num": 3,
   "enable_log": true,
   "log_dir": "log"
 }
