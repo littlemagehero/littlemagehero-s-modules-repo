@@ -1,5 +1,5 @@
 enable: true
-id: zygisk-sui
+id: zygisk-sui(fork)
 last_update: 1791305899.0
 source: https://github.com/XiaoTong6666/Sui
 update_to: https://xiaotong6666.github.io/Sui/sui_zygisk.json
