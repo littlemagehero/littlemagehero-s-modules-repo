@@ -1,0 +1,14 @@
+{
+  "id": "zygisk-sui",
+  "timestamp": 1791305899.0,
+  "versions": [
+    {
+      "timestamp": 1791305899.0,
+      "version": "v13.5.4.3 (560-0fda35f-release)",
+      "versionCode": 560,
+      "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui/v13.5.4.3_560-0fda35f-release.zip",
+      "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui/v13.5.4.3_560-0fda35f-release.md",
+      "size": 1360194
+    }
+  ]
+}

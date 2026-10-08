@@ -9,9 +9,57 @@
   "description": "My quality modules list and goated devs that makes quality modules (based on me)",
   "metadata": {
     "version": 1,
-    "timestamp": 1791483523.755962
+    "timestamp": 1791490275.774811
   },
   "modules": [
+    {
+      "id": "TA_utl",
+      "name": "Tricky Addon - Update Target List",
+      "version": "v4.4",
+      "versionCode": 679,
+      "author": "KOWX712",
+      "description": "A WebUI to conifgure tricky store target.txt ",
+      "support": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List/issues",
+      "categories": [
+        "WebUI"
+      ],
+      "readme": "https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/refs/heads/main/README.md",
+      "note": {
+        "message": "This module is not a part of the Tricky Store module. DO NOT report any issues to Tricky Store if encountered"
+      },
+      "license": " GPL-3.0",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1782029771.0,
+      "size": 3203800,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "action": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/KOWX712/Tricky-Addon-Update-Target-List",
+        "antifeatures": null,
+        "build_metadata": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/TA_utl/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1782029771.0,
+          "version": "v4.4",
+          "versionCode": 679,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/TA_utl/v4.4_679.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/TA_utl/v4.4_679.md",
+          "size": 3203800
+        }
+      ]
+    },
     {
       "id": "bindhosts",
       "name": "bindhosts",
@@ -77,56 +125,6 @@
       ]
     },
     {
-      "id": "mmrl_wpd",
-      "name": "WiFi Password Viewer for MMRL",
-      "version": "4.7.7",
-      "versionCode": 459,
-      "author": "Der_Googler, veez21 @ xda-developers",
-      "description": "View all your WiFi passwords and bluetooth devices inside MMRL",
-      "added": 1445340430.7142262,
-      "categories": [
-        "WebUI",
-        "Tweaks and Hacks",
-        "Miscellaneous"
-      ],
-      "support": "https://github.com/Googlers-Repo/wpd/issues",
-      "readme": "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/README.md",
-      "verified": true,
-      "screenshots": [
-        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/1.jpg",
-        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/2.jpg",
-        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/3.jpg",
-        "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/4.jpg"
-      ],
-      "timestamp": 1735764644.0,
-      "size": 462291,
-      "permissions": [
-        "magisk.permission.ACTION",
-        "kernelsu.permission.WEBUI"
-      ],
-      "features": {
-        "action": true,
-        "webroot": true
-      },
-      "track": {
-        "type": "GIT",
-        "added": 1445340430.7142262,
-        "source": "https://github.com/Googlers-Repo/wpd.git",
-        "antifeatures": null,
-        "build_metadata": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/mmrl_wpd/track.yaml"
-      },
-      "versions": [
-        {
-          "timestamp": 1735764644.0,
-          "version": "4.7.7",
-          "versionCode": 459,
-          "zipUrl": "https://example.com/modules/mmrl_wpd/4.7.7_459.zip",
-          "changelog": "",
-          "size": 462291
-        }
-      ]
-    },
-    {
       "id": "mountify",
       "name": "mountify",
       "version": "v2.0.4",
@@ -173,6 +171,86 @@
       ]
     },
     {
+      "id": "playintegrityfix",
+      "name": "Play Integrity Fork",
+      "version": "v18",
+      "versionCode": 180000,
+      "author": "osm0sis & chiteroman @ xda-developers",
+      "description": "Fix Play Integrity <A13 verdicts and Google Wallet/RCS on Android 7+",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1788024801.0,
+      "size": 227895,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION",
+        "mmrl.permission.DEXS"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "action": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/osm0sis/PlayIntegrityFork",
+        "antifeatures": null,
+        "build_metadata": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrityfix/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1788024801.0,
+          "version": "v18",
+          "versionCode": 180000,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrityfix/v18_180000.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrityfix/v18_180000.md",
+          "size": 227895
+        }
+      ]
+    },
+    {
+      "id": "teesim",
+      "name": "TEESimulator",
+      "version": "v4.0 (34-f63eaae-release)",
+      "versionCode": 34,
+      "author": "JingMatrix",
+      "description": "Redirects key attestation for selected apps to an in-process reference KeyMint trusted application.",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1786438945.0,
+      "size": 16702783,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.SEPOLICY",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.DEXS"
+      ],
+      "features": {
+        "service": true,
+        "sepolicy": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/JingMatrix/TEESimulator",
+        "antifeatures": null,
+        "build_metadata": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/teesim/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1786438945.0,
+          "version": "v4.0 (34-f63eaae-release)",
+          "versionCode": 34,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/teesim/v4.0_34-f63eaae-release.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/teesim/v4.0_34-f63eaae-release.md",
+          "size": 16702783
+        }
+      ]
+    },
+    {
       "id": "yumi",
       "name": "yumi",
       "version": "v2.0.2",
@@ -206,6 +284,93 @@
           "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/yumi/v2.0.2_20002.zip",
           "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/yumi/v2.0.2_20002.md",
           "size": 1028473
+        }
+      ]
+    },
+    {
+      "id": "zygisk-sui",
+      "name": "Zygisk - Sui",
+      "version": "v13.5.4.3 (560-0fda35f-release)",
+      "versionCode": 560,
+      "author": "Sui Contributors",
+      "description": "Fork by XiaoTong.\\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1791305899.0,
+      "size": 1360194,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY",
+        "magisk.permission.ACTION",
+        "mmrl.permission.APKS",
+        "mmrl.permission.DEXS"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true,
+        "action": true,
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/XiaoTong6666/Sui",
+        "antifeatures": null,
+        "build_metadata": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1791305899.0,
+          "version": "v13.5.4.3 (560-0fda35f-release)",
+          "versionCode": 560,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui/v13.5.4.3_560-0fda35f-release.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui/v13.5.4.3_560-0fda35f-release.md",
+          "size": 1360194
+        }
+      ]
+    },
+    {
+      "id": "zygisksu",
+      "name": "Zygisk Next",
+      "version": "1.5.0 (843-5217106-release)",
+      "versionCode": 843,
+      "author": "5ec1cff, Nullptr, aviraxp",
+      "description": "Standalone implementation of Zygisk.",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1789877965.0,
+      "size": 7529581,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.SEPOLICY",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "sepolicy": true,
+        "action": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/LSPosed/ZygiskNext",
+        "antifeatures": null,
+        "build_metadata": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisksu/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1789877965.0,
+          "version": "1.5.0 (843-5217106-release)",
+          "versionCode": 843,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisksu/1.5.0_843-5217106-release.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisksu/1.5.0_843-5217106-release.md",
+          "size": 7529581
         }
       ]
     }
