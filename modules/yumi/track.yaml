@@ -1,0 +1,4 @@
+id: yumi
+enable: true
+source: https://github.com/imacte/yumi
+update_to: https://raw.githubusercontent.com/imacte/yumi/main/updateInformation/update.json
