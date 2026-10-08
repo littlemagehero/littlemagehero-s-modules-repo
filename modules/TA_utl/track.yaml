@@ -1,5 +1,5 @@
 enable: true
-id: TA_utl
+id: tricky-addon
 last_update: 1782029771.0
 source: https://github.com/KOWX712/Tricky-Addon-Update-Target-List
 update_to: https://raw.githubusercontent.com/KOWX712/Tricky-Addon-Update-Target-List/main/update.json
