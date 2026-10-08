@@ -1,4 +1,6 @@
-id: mountify
 enable: true
+id: mountify
+last_update: 1787634855.0
 source: https://github.com/backslashxx/mountify
 update_to: https://raw.githubusercontent.com/backslashxx/mountify/refs/heads/master/update.json
+versions: 1

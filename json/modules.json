@@ -1,15 +1,15 @@
 {
-  "id": "examplcom",
-  "name": "Template Magisk Modules Repository",
+  "id": "litlitepo",
+  "name": "littlemagehero's Root Modules Repository",
   "website": null,
   "support": null,
   "donate": null,
   "submission": null,
-  "cover": "https://example.com/assets/cover.webp",
-  "description": null,
+  "cover": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/assets/cover.webp",
+  "description": "My quality modules list and goated devs that makes quality modules (based on me)",
   "metadata": {
     "version": 1,
-    "timestamp": 1791464395.60313
+    "timestamp": 1791483523.755962
   },
   "modules": [
     {
@@ -55,7 +55,7 @@
         "added": 1733301165,
         "source": "https://github.com/backslashxx/bindhosts",
         "antifeatures": null,
-        "build_metadata": "https://example.com/modules/bindhosts/track.yaml"
+        "build_metadata": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/bindhosts/track.yaml"
       },
       "versions": [
         {
@@ -113,7 +113,7 @@
         "added": 1445340430.7142262,
         "source": "https://github.com/Googlers-Repo/wpd.git",
         "antifeatures": null,
-        "build_metadata": "https://example.com/modules/mmrl_wpd/track.yaml"
+        "build_metadata": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/mmrl_wpd/track.yaml"
       },
       "versions": [
         {
@@ -123,6 +123,89 @@
           "zipUrl": "https://example.com/modules/mmrl_wpd/4.7.7_459.zip",
           "changelog": "",
           "size": 462291
+        }
+      ]
+    },
+    {
+      "id": "mountify",
+      "name": "mountify",
+      "version": "v2.0.4",
+      "versionCode": 204,
+      "author": "xx, KOWX712",
+      "description": "Globally mounted modules via OverlayFS.",
+      "metamodule": "true",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1787634855.0,
+      "size": 554873,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.POST_FS_DATA",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.WEBUI_CONFIG",
+        "kernelsu.permission.BOOT_COMPLETED",
+        "kernelsu.permission.METAMODULE"
+      ],
+      "features": {
+        "service": true,
+        "post_fs_data": true,
+        "action": true,
+        "webroot": true,
+        "boot_completed": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/backslashxx/mountify",
+        "antifeatures": null,
+        "build_metadata": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/mountify/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1787634855.0,
+          "version": "v2.0.4",
+          "versionCode": 204,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/mountify/v2.0.4_204.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/mountify/v2.0.4_204.md",
+          "size": 554873
+        }
+      ]
+    },
+    {
+      "id": "yumi",
+      "name": "yumi",
+      "version": "v2.0.2",
+      "versionCode": 20002,
+      "author": "yuki",
+      "description": " yumi",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1785501357.0,
+      "size": 1028473,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "kernelsu.permission.WEBUI"
+      ],
+      "features": {
+        "service": true,
+        "webroot": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/imacte/yumi",
+        "antifeatures": null,
+        "build_metadata": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/yumi/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1785501357.0,
+          "version": "v2.0.2",
+          "versionCode": 20002,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/yumi/v2.0.2_20002.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/yumi/v2.0.2_20002.md",
+          "size": 1028473
         }
       ]
     }

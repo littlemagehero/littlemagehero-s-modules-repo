@@ -1,4 +1,6 @@
-id: yumi
 enable: true
+id: yumi
+last_update: 1785501357.0
 source: https://github.com/imacte/yumi
 update_to: https://raw.githubusercontent.com/imacte/yumi/main/updateInformation/update.json
+versions: 1
