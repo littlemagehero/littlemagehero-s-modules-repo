@@ -1,0 +1,4 @@
+id: zygisksu
+enable: true
+source: https://github.com/LSPosed/ZygiskNext
+update_to: https://lsposed.zip/zygisk-next/update.json
