@@ -9,7 +9,7 @@
   "description": "My quality modules list and goated devs that makes quality modules (based on me)",
   "metadata": {
     "version": 1,
-    "timestamp": 1791522455.827275
+    "timestamp": 1791549982.502474
   },
   "modules": [
     {
@@ -147,7 +147,7 @@
       "track": {
         "type": "ONLINE_JSON",
         "added": null,
-        "source": "https://github.com/osm0sis/PlayIntegrityFork",
+        "source": "https://github.com/KOWX712/PlayIntegrityFix",
         "antifeatures": null,
         "build_metadata": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrity-inject/track.yaml"
       },
