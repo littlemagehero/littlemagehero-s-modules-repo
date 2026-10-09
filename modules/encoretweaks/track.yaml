@@ -1,4 +1,6 @@
-id: encoretweaks
 enable: true
+id: encoretweaks
+last_update: 1791241461.0
 source: https://github.com/Rem01Gaming/encore
 update_to: https://encore.rem01gaming.dev/api/update.json
+versions: 1

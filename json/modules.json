@@ -9,7 +9,7 @@
   "description": "My quality modules list and goated devs that makes quality modules (based on me)",
   "metadata": {
     "version": 1,
-    "timestamp": 1791549982.502474
+    "timestamp": 1791552382.868594
   },
   "modules": [
     {
@@ -73,6 +73,48 @@
           "zipUrl": "https://example.com/modules/bindhosts/v2.0.6_206.zip",
           "changelog": "https://example.com/modules/bindhosts/v2.0.6_206.md",
           "size": 117756
+        }
+      ]
+    },
+    {
+      "id": "encoretweaks",
+      "name": "Encore Tweaks",
+      "version": "5.2.2 (1571-47cdb70-main)",
+      "versionCode": 1571,
+      "author": "Rem01Gaming",
+      "description": "Special performance module for your Device.",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1791241461.0,
+      "size": 2309385,
+      "permissions": [
+        "magisk.permission.SERVICE",
+        "magisk.permission.ACTION",
+        "kernelsu.permission.WEBUI",
+        "mmrl.permission.WEBUI_CONFIG",
+        "mmrl.permission.APKS"
+      ],
+      "features": {
+        "service": true,
+        "action": true,
+        "webroot": true,
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/Rem01Gaming/encore",
+        "antifeatures": null,
+        "build_metadata": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/encoretweaks/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1791241461.0,
+          "version": "5.2.2 (1571-47cdb70-main)",
+          "versionCode": 1571,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/encoretweaks/5.2.2_1571-47cdb70-main.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/encoretweaks/5.2.2_1571-47cdb70-main.md",
+          "size": 2309385
         }
       ]
     },
