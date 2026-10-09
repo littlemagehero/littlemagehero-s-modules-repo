@@ -79,6 +79,14 @@ jobs:
         run: |
           mmrl-util index --push
 
+#custom
+      - name: Update README module list
+        if: ${{ env.IS_SYNC == 'true' }}
+        run: |
+          python scripts/update_readme.py
+          git add README.md
+          git diff --cached --quiet || (git commit -m "Update README module list" && git push)
+
       - name: Upload logs
         uses: actions/upload-artifact@v4
         with:
