@@ -1,6 +1,6 @@
 enable: true
 id: playintegrity-inject
-last_update: 1788024801.0
+last_update: 1783849380.0
 source: https://github.com/KOWX712/PlayIntegrityFix
 update_to: https://fastly.jsdelivr.net/gh/KOWX712/playintegrityfix@inject_s/update.json
 versions: 1

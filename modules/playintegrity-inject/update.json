@@ -1,0 +1,14 @@
+{
+  "id": "playintegrity-inject",
+  "timestamp": 1783849380.0,
+  "versions": [
+    {
+      "timestamp": 1783849380.0,
+      "version": "v4.7-1-inject-s",
+      "versionCode": 471,
+      "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrity-inject/v4.7-1-inject-s_471.zip",
+      "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrity-inject/v4.7-1-inject-s_471.md",
+      "size": 660329
+    }
+  ]
+}
