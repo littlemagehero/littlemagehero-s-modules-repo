@@ -1,0 +1,4 @@
+id: encoretweaks
+enable: true
+source: https://github.com/Rem01Gaming/encore
+update_to: https://encore.rem01gaming.dev/api/update.json
