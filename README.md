@@ -9,8 +9,9 @@ My collection of quality root modules.
 <!-- MODULES:START -->
 | Module | Author | Version | Description |
 |---|---|---|---|
-| bindhosts | xx, KOWX712 | v2.0.6 | Systemless hosts for APatch, KernelSU and Magisk |
+| bindhosts | xx, KOWX712 | v2.1.5 | Systemless hosts for APatch, KernelSU and Magisk |
 | Encore Tweaks | Rem01Gaming | 5.2.2 (1571-47cdb70-main) | Special performance module for your Device. |
+| HMA-OSS Zygisk | frknkrc44 | oss-173 | A Zygisk backend for HMA-OSS |
 | mountify | xx, KOWX712 | v2.0.4 | Globally mounted modules via OverlayFS. |
 | Play Integrity Fix [INJECT] | chiteroman, KOWX712 | v4.7-1-inject-s | Universal modular fix for Play Integrity on devices running Android 8-17 |
 | Play Integrity Fork | osm0sis & chiteroman @ xda-developers | v18 | Fix Play Integrity <A13 verdicts and Google Wallet/RCS on Android 7+ |
