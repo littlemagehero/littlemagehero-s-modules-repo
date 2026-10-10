@@ -1,0 +1,4 @@
+id: hma-oss
+enable: true
+source: https://github.com/frknkrc44/HMA-OSS
+update_to: https://furkank.net/hma_oss_update_checker.json
