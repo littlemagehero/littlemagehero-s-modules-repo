@@ -9,14 +9,14 @@
   "description": "My quality modules list and goated devs that makes quality modules (based on me)",
   "metadata": {
     "version": 1,
-    "timestamp": 1791607997.727339
+    "timestamp": 1791633883.602712
   },
   "modules": [
     {
       "id": "bindhosts",
       "name": "bindhosts",
-      "version": "v2.0.6",
-      "versionCode": 206,
+      "version": "v2.1.5",
+      "versionCode": 215,
       "author": "xx, KOWX712",
       "description": "Systemless hosts for APatch, KernelSU and Magisk ",
       "added": 1733301165,
@@ -35,44 +35,38 @@
       ],
       "support": "https://github.com/bindhosts/bindhosts/issues",
       "license": "WTFPL",
-      "timestamp": 1752752498.0,
-      "size": 117756,
+      "timestamp": 1789049592.0,
+      "size": 258303,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
         "magisk.permission.ACTION",
         "kernelsu.permission.WEBUI",
-        "mmrl.permission.WEBUI_CONFIG"
+        "mmrl.permission.WEBUI_CONFIG",
+        "kernelsu.permission.BOOT_COMPLETED"
       ],
       "features": {
         "service": true,
         "post_fs_data": true,
         "action": true,
-        "webroot": true
+        "webroot": true,
+        "boot_completed": true
       },
       "track": {
         "type": "ONLINE_JSON",
         "added": 1733301165,
-        "source": "https://github.com/backslashxx/bindhosts",
+        "source": "https://github.com/bindhosts/bindhosts",
         "antifeatures": null,
         "build_metadata": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/bindhosts/track.yaml"
       },
       "versions": [
         {
-          "timestamp": 1735904596.0,
-          "version": "v1.8.5",
-          "versionCode": 185,
-          "zipUrl": "https://example.com/modules/bindhosts/v1.8.5_185.zip",
-          "changelog": "https://example.com/modules/bindhosts/v1.8.5_185.md",
-          "size": 31756
-        },
-        {
-          "timestamp": 1752752498.0,
-          "version": "v2.0.6",
-          "versionCode": 206,
-          "zipUrl": "https://example.com/modules/bindhosts/v2.0.6_206.zip",
-          "changelog": "https://example.com/modules/bindhosts/v2.0.6_206.md",
-          "size": 117756
+          "timestamp": 1789049592.0,
+          "version": "v2.1.5",
+          "versionCode": 215,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/bindhosts/v2.1.5_215.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/bindhosts/v2.1.5_215.md",
+          "size": 258303
         }
       ]
     },
@@ -115,6 +109,46 @@
           "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/encoretweaks/5.2.2_1571-47cdb70-main.zip",
           "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/encoretweaks/5.2.2_1571-47cdb70-main.md",
           "size": 2309385
+        }
+      ]
+    },
+    {
+      "id": "hma-oss",
+      "name": "HMA-OSS Zygisk",
+      "version": "oss-173",
+      "versionCode": 7304656,
+      "author": "frknkrc44",
+      "description": "A Zygisk backend for HMA-OSS",
+      "verified": false,
+      "added": 0,
+      "timestamp": 1790729003.0,
+      "size": 2743824,
+      "permissions": [
+        "magisk.permission.ZYGISK",
+        "magisk.permission.ACTION",
+        "mmrl.permission.APKS",
+        "mmrl.permission.DEXS"
+      ],
+      "features": {
+        "zygisk": true,
+        "action": true,
+        "apks": true
+      },
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": null,
+        "source": "https://github.com/frknkrc44/HMA-OSS",
+        "antifeatures": null,
+        "build_metadata": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/track.yaml"
+      },
+      "versions": [
+        {
+          "timestamp": 1790729003.0,
+          "version": "oss-173",
+          "versionCode": 7304656,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-173_7304656.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-173_7304656.md",
+          "size": 2743824
         }
       ]
     },

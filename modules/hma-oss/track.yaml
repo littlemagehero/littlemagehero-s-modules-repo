@@ -1,4 +1,6 @@
-id: hma-oss
 enable: true
+id: hma-oss
+last_update: 1790729003.0
 source: https://github.com/frknkrc44/HMA-OSS
 update_to: https://furkank.net/hma_oss_update_checker.json
+versions: 1

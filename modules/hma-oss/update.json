@@ -1,0 +1,14 @@
+{
+  "id": "hma-oss",
+  "timestamp": 1790729003.0,
+  "versions": [
+    {
+      "timestamp": 1790729003.0,
+      "version": "oss-173",
+      "versionCode": 7304656,
+      "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-173_7304656.zip",
+      "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-173_7304656.md",
+      "size": 2743824
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "bindhosts",
+  "timestamp": 1789049592.0,
+  "versions": [
+    {
+      "timestamp": 1789049592.0,
+      "version": "v2.1.5",
+      "versionCode": 215,
+      "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/bindhosts/v2.1.5_215.zip",
+      "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/bindhosts/v2.1.5_215.md",
+      "size": 258303
+    }
+  ]
+}
