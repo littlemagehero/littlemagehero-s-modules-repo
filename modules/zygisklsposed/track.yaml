@@ -1,0 +1,4 @@
+id: zygisklsposed
+enable: true
+source: https://github.com/lsposed/lsposed
+update_to: https://lsposed.zip/update.json
