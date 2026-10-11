@@ -1,0 +1,4 @@
+id: ohmykeymint
+enable: true
+source: https://github.com/qwq233/OhMyKeymint
+update_to: https://raw.githubusercontent.com/qwq233/OhMyKeymint/changelog/update.json
