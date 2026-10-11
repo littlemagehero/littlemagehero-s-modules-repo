@@ -1,4 +1,6 @@
-id: zygisklsposed
 enable: true
+id: zygisklsposed
+last_update: 1791166647.0
 source: https://github.com/lsposed/lsposed
 update_to: https://lsposed.zip/update.json
+versions: 1

@@ -1,4 +1,6 @@
-id: ohmykeymint
 enable: true
+id: ohmykeymint
+last_update: 1789565269.0
 source: https://github.com/qwq233/OhMyKeymint
 update_to: https://raw.githubusercontent.com/qwq233/OhMyKeymint/changelog/update.json
+versions: 1
