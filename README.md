@@ -21,7 +21,7 @@ My collection of quality root modules.
 | Tricky Addon - Update Target List | KOWX712 | v4.4 | A WebUI to conifgure tricky store target.txt |
 | yumi | yuki | v2.0.2 | yumi |
 | Zygisk - Sui | Sui Contributors | v13.5.4.3 (562-b033d81-release) | Fork by XiaoTong. Modern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList. |
-| Zygisk Next | LSPosed Developers | 1.5.1 (862-56ae062-release) | Standalone implementation of Zygisk. |
+| Zygisk Next | LSPosed Developers | 1.5.2 (864-a4a72ce-release) | Standalone implementation of Zygisk. |
 <!-- MODULES:END -->
 
 Credit goes to each module's original author.
