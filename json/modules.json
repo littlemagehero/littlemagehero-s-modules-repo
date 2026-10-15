@@ -9,7 +9,7 @@
   "description": "My quality modules list and goated devs that makes quality modules (based on me)",
   "metadata": {
     "version": 1,
-    "timestamp": 1792035715.347815
+    "timestamp": 1792062034.723757
   },
   "modules": [
     {
@@ -20,18 +20,18 @@
       "author": "xx, KOWX712",
       "description": "Systemless hosts for APatch, KernelSU and Magisk ",
       "added": 1733301165,
+      "categories": [
+        "Adblocking and Hosts Files",
+        "APatch",
+        "KernelSU",
+        "Magisk"
+      ],
       "verified": true,
       "readme": "https://raw.githubusercontent.com/bindhosts/bindhosts/refs/heads/master/README.md",
       "screenshots": [
         "https://raw.githubusercontent.com/bindhosts/bindhosts/refs/heads/master/Documentation/screenshots/mmrl_manager.png",
         "https://raw.githubusercontent.com/bindhosts/bindhosts/refs/heads/master/Documentation/screenshots/mmrl_webui.png",
         "https://raw.githubusercontent.com/bindhosts/bindhosts/refs/heads/master/Documentation/screenshots/manager_action.png"
-      ],
-      "categories": [
-        "Adblocking and Hosts Files",
-        "APatch",
-        "KernelSU",
-        "Magisk"
       ],
       "support": "https://github.com/bindhosts/bindhosts/issues",
       "license": "WTFPL",
@@ -77,6 +77,10 @@
       "versionCode": 1571,
       "author": "Rem01Gaming",
       "description": "Special performance module for your Device.",
+      "categories": [
+        "Tools",
+        "Performance"
+      ],
       "verified": false,
       "added": 0,
       "timestamp": 1791241461.0,
@@ -119,6 +123,10 @@
       "versionCode": 7304656,
       "author": "frknkrc44",
       "description": "A Zygisk backend for HMA-OSS",
+      "categories": [
+        "Tools",
+        "Must Have"
+      ],
       "verified": false,
       "added": 0,
       "timestamp": 1790729003.0,
@@ -155,15 +163,18 @@
     {
       "id": "mountify",
       "name": "mountify",
-      "version": "v2.0.4",
-      "versionCode": 204,
+      "version": "v2.0.5",
+      "versionCode": 205,
       "author": "xx, KOWX712",
       "description": "Globally mounted modules via OverlayFS.",
       "metamodule": "true",
+      "categories": [
+        "Meta Module"
+      ],
       "verified": false,
       "added": 0,
-      "timestamp": 1787634855.0,
-      "size": 554873,
+      "timestamp": 1792046364.0,
+      "size": 554882,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -195,6 +206,14 @@
           "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/mountify/v2.0.4_204.zip",
           "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/mountify/v2.0.4_204.md",
           "size": 554873
+        },
+        {
+          "timestamp": 1792046364.0,
+          "version": "v2.0.5",
+          "versionCode": 205,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/mountify/v2.0.5_205.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/mountify/v2.0.5_205.md",
+          "size": 554882
         }
       ]
     },
@@ -244,6 +263,9 @@
       "versionCode": 480,
       "author": "chiteroman, KOWX712",
       "description": "Universal modular fix for Play Integrity on devices running Android 8-17",
+      "categories": [
+        "Must Have"
+      ],
       "verified": false,
       "added": 0,
       "timestamp": 1791812983.0,
@@ -295,6 +317,9 @@
       "versionCode": 180000,
       "author": "osm0sis & chiteroman @ xda-developers",
       "description": "Fix Play Integrity <A13 verdicts and Google Wallet/RCS on Android 7+",
+      "categories": [
+        "Must Have"
+      ],
       "verified": false,
       "added": 0,
       "timestamp": 1788024801.0,
@@ -335,6 +360,9 @@
       "versionCode": 34,
       "author": "JingMatrix",
       "description": "Redirects key attestation for selected apps to an in-process reference KeyMint trusted application.",
+      "categories": [
+        "Must Have"
+      ],
       "verified": false,
       "added": 0,
       "timestamp": 1786438945.0,
@@ -423,6 +451,10 @@
       "versionCode": 20002,
       "author": "yuki",
       "description": " yumi",
+      "categories": [
+        "Tools",
+        "Performance"
+      ],
       "verified": false,
       "added": 0,
       "timestamp": 1785501357.0,
@@ -456,14 +488,14 @@
     {
       "id": "zygisk-sui(fork)",
       "name": "Zygisk - Sui",
-      "version": "v13.5.4.3 (562-b033d81-release)",
-      "versionCode": 562,
+      "version": "v13.5.4.3 (564-e967423-release)",
+      "versionCode": 564,
       "author": "Sui Contributors",
       "description": "Fork by XiaoTong.\\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
       "verified": false,
       "added": 0,
-      "timestamp": 1791883091.0,
-      "size": 1360195,
+      "timestamp": 1792054500.0,
+      "size": 1364750,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -488,14 +520,6 @@
       },
       "versions": [
         {
-          "timestamp": 1791305899.0,
-          "version": "v13.5.4.3 (560-0fda35f-release)",
-          "versionCode": 560,
-          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui/v13.5.4.3_560-0fda35f-release.zip",
-          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui/v13.5.4.3_560-0fda35f-release.md",
-          "size": 1360194
-        },
-        {
           "timestamp": 1791815687.0,
           "version": "v13.5.4.3 (561-ff124fb-release)",
           "versionCode": 561,
@@ -510,6 +534,14 @@
           "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_562-b033d81-release.zip",
           "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_562-b033d81-release.md",
           "size": 1360195
+        },
+        {
+          "timestamp": 1792054500.0,
+          "version": "v13.5.4.3 (564-e967423-release)",
+          "versionCode": 564,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_564-e967423-release.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_564-e967423-release.md",
+          "size": 1364750
         }
       ]
     },
@@ -562,6 +594,10 @@
       "versionCode": 864,
       "author": "LSPosed Developers",
       "description": "Standalone implementation of Zygisk.",
+      "categories": [
+        "Tools",
+        "Must Have"
+      ],
       "verified": false,
       "added": 0,
       "timestamp": 1791901439.0,

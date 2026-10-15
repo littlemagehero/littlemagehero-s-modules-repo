@@ -9,6 +9,14 @@
       "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/mountify/v2.0.4_204.zip",
       "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/mountify/v2.0.4_204.md",
       "size": 554873
+    },
+    {
+      "timestamp": 1792046364.0,
+      "version": "v2.0.5",
+      "versionCode": 205,
+      "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/mountify/v2.0.5_205.zip",
+      "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/mountify/v2.0.5_205.md",
+      "size": 554882
     }
   ]
 }
