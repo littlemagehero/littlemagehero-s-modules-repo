@@ -9,7 +9,7 @@
   "description": "My quality modules list and goated devs that makes quality modules (based on me)",
   "metadata": {
     "version": 1,
-    "timestamp": 1792081832.577526
+    "timestamp": 1792098147.315507
   },
   "modules": [
     {
@@ -259,8 +259,8 @@
     {
       "id": "playintegrity-inject",
       "name": "Play Integrity Fix [INJECT]",
-      "version": "v4.8-inject-s",
-      "versionCode": 480,
+      "version": "v4.9-inject-s",
+      "versionCode": 490,
       "author": "chiteroman, KOWX712",
       "description": "Universal modular fix for Play Integrity on devices running Android 8-17",
       "categories": [
@@ -268,8 +268,8 @@
       ],
       "verified": false,
       "added": 0,
-      "timestamp": 1791812983.0,
-      "size": 691564,
+      "timestamp": 1792073460.0,
+      "size": 692511,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -307,6 +307,14 @@
           "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrity-inject/v4.8-inject-s_480.zip",
           "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrity-inject/v4.8-inject-s_480.md",
           "size": 691564
+        },
+        {
+          "timestamp": 1792073460.0,
+          "version": "v4.9-inject-s",
+          "versionCode": 490,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrity-inject/v4.9-inject-s_490.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrity-inject/v4.9-inject-s_490.md",
+          "size": 692511
         }
       ]
     },

@@ -17,6 +17,14 @@
       "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrity-inject/v4.8-inject-s_480.zip",
       "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrity-inject/v4.8-inject-s_480.md",
       "size": 691564
+    },
+    {
+      "timestamp": 1792073460.0,
+      "version": "v4.9-inject-s",
+      "versionCode": 490,
+      "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrity-inject/v4.9-inject-s_490.zip",
+      "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrity-inject/v4.9-inject-s_490.md",
+      "size": 692511
     }
   ]
 }
