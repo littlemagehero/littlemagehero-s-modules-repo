@@ -4,3 +4,6 @@ last_update: 1791901439.0
 source: https://github.com/LSPosed/ZygiskNext
 update_to: https://lsposed.zip/zygisk-next/update.json
 versions: 3
+categories:
+  - "Tools"
+  - "Must Have"

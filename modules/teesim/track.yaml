@@ -4,3 +4,5 @@ last_update: 1786438945.0
 source: https://github.com/JingMatrix/TEESimulator
 update_to: https://raw.githubusercontent.com/JingMatrix/TEESimulator/dev/module/update.json
 versions: 1
+categories:
+  - "Must Have"

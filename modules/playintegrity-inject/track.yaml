@@ -4,3 +4,5 @@ last_update: 1791812983.0
 source: https://github.com/KOWX712/PlayIntegrityFix
 update_to: https://fastly.jsdelivr.net/gh/KOWX712/playintegrityfix@inject_s/update.json
 versions: 2
+categories:
+  - "Must Have"
