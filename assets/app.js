@@ -2,7 +2,10 @@
   var list = document.getElementById('list');
   var q = document.getElementById('q');
   var count = document.getElementById('count');
+  var catBar = document.getElementById('cats');
   var base = new URL('./', location.href).href;
+  var NONE = '__none__';
+  var active = 'all';
 
   function el(t, c, x) {
     var e = document.createElement(t);
@@ -43,6 +46,18 @@
     }, null);
   }
 
+  // Returns [{key, label}] for a module; modules without categories get Uncategorized.
+  function catsOf(m) {
+    var raw = Array.isArray(m.categories) ? m.categories : (m.categories ? [m.categories] : []);
+    var seen = {}, out = [];
+    raw.forEach(function (c) {
+      var label = clean(c);
+      var key = label.toLowerCase();
+      if (label && !seen[key]) { seen[key] = 1; out.push({ key: key, label: label }); }
+    });
+    return out.length ? out : [{ key: NONE, label: 'Uncategorized' }];
+  }
+
   function card(m) {
     var d = el('details', 'mod');
     var s = el('summary');
@@ -70,7 +85,45 @@
 
     d.appendChild(b);
     d.dataset.find = [m.name, m.id, m.author, m.description].map(clean).join(' ').toLowerCase();
+    d.dataset.cats = '|' + catsOf(m).map(function (c) { return c.key; }).join('|') + '|';
     return d;
+  }
+
+  function buildChips(mods) {
+    var map = {};
+    mods.forEach(function (m) {
+      catsOf(m).forEach(function (c) {
+        if (!map[c.key]) map[c.key] = { key: c.key, label: c.label, n: 0 };
+        map[c.key].n++;
+      });
+    });
+    var cats = Object.keys(map).map(function (k) { return map[k]; }).sort(function (a, b) {
+      if (a.key === NONE) return 1;
+      if (b.key === NONE) return -1;
+      return a.label.toLowerCase().localeCompare(b.label.toLowerCase());
+    });
+
+    catBar.textContent = '';
+    // Only show the bar when there is something to filter by.
+    if (!cats.length || (cats.length === 1 && cats[0].key === NONE)) return;
+
+    [{ key: 'all', label: 'All', n: mods.length }].concat(cats).forEach(function (c) {
+      var b = el('button', 'chip');
+      b.type = 'button';
+      b.dataset.key = c.key;
+      b.setAttribute('aria-pressed', c.key === active ? 'true' : 'false');
+      b.appendChild(el('span', 'n', c.n));
+      b.appendChild(el('span', '', c.label));
+      b.addEventListener('click', function () {
+        // Tapping the selected category again goes back to All.
+        active = (active === c.key && c.key !== 'all') ? 'all' : c.key;
+        catBar.querySelectorAll('.chip').forEach(function (x) {
+          x.setAttribute('aria-pressed', x.dataset.key === active ? 'true' : 'false');
+        });
+        filter();
+      });
+      catBar.appendChild(b);
+    });
   }
 
   function filter() {
@@ -78,17 +131,20 @@
     var cards = list.querySelectorAll('.mod');
     var n = 0;
     cards.forEach(function (c) {
-      var ok = !t || c.dataset.find.indexOf(t) > -1;
+      var okText = !t || c.dataset.find.indexOf(t) > -1;
+      var okCat = active === 'all' || c.dataset.cats.indexOf('|' + active + '|') > -1;
+      var ok = okText && okCat;
       c.hidden = !ok;
       if (ok) n++;
     });
+    var filtered = t || active !== 'all';
     count.textContent = cards.length
-      ? (t ? n + ' of ' + cards.length + ' modules' : cards.length + ' modules')
+      ? (filtered ? n + ' of ' + cards.length + ' modules' : cards.length + ' modules')
       : '';
     var empty = list.querySelector('.empty');
     if (cards.length && !n) {
       if (!empty) {
-        empty = el('div', 'state empty', 'No modules match your search.');
+        empty = el('div', 'state empty', 'No modules match your filters.');
         list.appendChild(empty);
       }
     } else if (empty) {
@@ -136,6 +192,7 @@
         return;
       }
       mods.forEach(function (m) { list.appendChild(card(m)); });
+      buildChips(mods);
       filter();
     })
     .catch(function () {
