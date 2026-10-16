@@ -35,3 +35,4 @@ footer{color:var(--mute);font-size:.85rem;margin-top:16px}
 .chip .n{background:var(--chip);color:var(--ink);border-radius:999px;min-width:24px;padding:1px 7px;text-align:center;font-size:.8rem}
 .chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .chip[aria-pressed="true"] .n{background:var(--accent-ink);color:var(--accent)}
+.chip[aria-pressed="true"]::after{content:"\2713";margin-left:2px}
