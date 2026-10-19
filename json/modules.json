@@ -9,7 +9,7 @@
   "description": "My quality modules list and goated devs that makes quality modules (based on me)",
   "metadata": {
     "version": 1,
-    "timestamp": 1792381487.991342
+    "timestamp": 1792412908.755767
   },
   "modules": [
     {
@@ -496,14 +496,14 @@
     {
       "id": "zygisk-sui(fork)",
       "name": "Zygisk - Sui",
-      "version": "v13.5.4.3 (567-ff78053-release)",
-      "versionCode": 567,
+      "version": "v13.5.4.3 (568-d92eb95-release)",
+      "versionCode": 568,
       "author": "Sui Contributors",
       "description": "Fork by XiaoTong.\\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
       "verified": false,
       "added": 0,
-      "timestamp": 1792246971.0,
-      "size": 1435612,
+      "timestamp": 1792391596.0,
+      "size": 1438623,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -528,14 +528,6 @@
       },
       "versions": [
         {
-          "timestamp": 1792054500.0,
-          "version": "v13.5.4.3 (564-e967423-release)",
-          "versionCode": 564,
-          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_564-e967423-release.zip",
-          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_564-e967423-release.md",
-          "size": 1364750
-        },
-        {
           "timestamp": 1792121391.0,
           "version": "v13.5.4.3 (566-099cb89-release)",
           "versionCode": 566,
@@ -550,6 +542,14 @@
           "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_567-ff78053-release.zip",
           "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_567-ff78053-release.md",
           "size": 1435612
+        },
+        {
+          "timestamp": 1792391596.0,
+          "version": "v13.5.4.3 (568-d92eb95-release)",
+          "versionCode": 568,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_568-d92eb95-release.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_568-d92eb95-release.md",
+          "size": 1438623
         }
       ]
     },
