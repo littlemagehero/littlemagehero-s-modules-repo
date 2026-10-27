@@ -3,14 +3,6 @@
   "timestamp": 1791305899.0,
   "versions": [
     {
-      "timestamp": 1792659118.0,
-      "version": "v13.5.4.3 (569-8d2392a-release)",
-      "versionCode": 569,
-      "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_569-8d2392a-release.zip",
-      "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_569-8d2392a-release.md",
-      "size": 1454699
-    },
-    {
       "timestamp": 1792864970.0,
       "version": "v13.5.4.3 (570-374ff72-release)",
       "versionCode": 570,
@@ -25,6 +17,14 @@
       "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_571-af5447f-release.zip",
       "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_571-af5447f-release.md",
       "size": 1456818
+    },
+    {
+      "timestamp": 1793080805.0,
+      "version": "v13.5.4.3 (572-201b29a-release)",
+      "versionCode": 572,
+      "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_572-201b29a-release.zip",
+      "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_572-201b29a-release.md",
+      "size": 1457158
     }
   ]
 }
