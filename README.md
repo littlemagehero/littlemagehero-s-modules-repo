@@ -20,7 +20,7 @@ My collection of quality root modules.
 | TEESimulator | JingMatrix | v4.0 (34-f63eaae-release) | Redirects key attestation for selected apps to an in-process reference KeyMint trusted application. |
 | Tricky Addon - Update Target List | KOWX712 | v4.4 | A WebUI to conifgure tricky store target.txt |
 | yumi | yuki | v2.0.2 | yumi |
-| Zygisk - Sui | Sui Contributors | v13.5.4.3 (571-af5447f-release) | Fork by XiaoTong. Modern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList. |
+| Zygisk - Sui | Sui Contributors | v13.5.4.3 (572-201b29a-release) | Fork by XiaoTong. Modern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList. |
 | Zygisk Next | LSPosed Developers | 1.5.2 (864-a4a72ce-release) | Standalone implementation of Zygisk. |
 <!-- MODULES:END -->
 
