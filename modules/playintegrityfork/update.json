@@ -9,6 +9,14 @@
       "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrityfork/v18_180000.zip",
       "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrityfork/v18_180000.md",
       "size": 227895
+    },
+    {
+      "timestamp": 1793670968.0,
+      "version": "v19",
+      "versionCode": 190000,
+      "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrityfork/v19_190000.zip",
+      "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrityfork/v19_190000.md",
+      "size": 341951
     }
   ]
 }

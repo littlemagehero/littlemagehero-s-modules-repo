@@ -9,7 +9,7 @@
   "description": "My quality modules list and goated devs that makes quality modules (based on me)",
   "metadata": {
     "version": 1,
-    "timestamp": 1793666479.062231
+    "timestamp": 1793713661.049718
   },
   "modules": [
     {
@@ -329,8 +329,8 @@
     {
       "id": "playintegrityfork",
       "name": "Play Integrity Fork",
-      "version": "v18",
-      "versionCode": 180000,
+      "version": "v19",
+      "versionCode": 190000,
       "author": "osm0sis & chiteroman @ xda-developers",
       "description": "Fix Play Integrity <A13 verdicts and Google Wallet/RCS on Android 7+",
       "categories": [
@@ -338,8 +338,8 @@
       ],
       "verified": false,
       "added": 0,
-      "timestamp": 1788024801.0,
-      "size": 227895,
+      "timestamp": 1793670968.0,
+      "size": 341951,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -366,6 +366,14 @@
           "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrityfork/v18_180000.zip",
           "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrityfork/v18_180000.md",
           "size": 227895
+        },
+        {
+          "timestamp": 1793670968.0,
+          "version": "v19",
+          "versionCode": 190000,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrityfork/v19_190000.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/playintegrityfork/v19_190000.md",
+          "size": 341951
         }
       ]
     },
@@ -504,14 +512,14 @@
     {
       "id": "zygisk-sui(fork)",
       "name": "Zygisk - Sui",
-      "version": "v13.5.4.3 (573-cab27cf-release)",
-      "versionCode": 573,
+      "version": "v13.5.4.3 (574-746c06c-release)",
+      "versionCode": 574,
       "author": "Sui Contributors",
       "description": "Fork by XiaoTong.\\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
       "verified": false,
       "added": 0,
-      "timestamp": 1793337812.0,
-      "size": 1452813,
+      "timestamp": 1793695438.0,
+      "size": 1452599,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -536,14 +544,6 @@
       },
       "versions": [
         {
-          "timestamp": 1792923911.0,
-          "version": "v13.5.4.3 (571-af5447f-release)",
-          "versionCode": 571,
-          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_571-af5447f-release.zip",
-          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_571-af5447f-release.md",
-          "size": 1456818
-        },
-        {
           "timestamp": 1793080805.0,
           "version": "v13.5.4.3 (572-201b29a-release)",
           "versionCode": 572,
@@ -558,6 +558,14 @@
           "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_573-cab27cf-release.zip",
           "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_573-cab27cf-release.md",
           "size": 1452813
+        },
+        {
+          "timestamp": 1793695438.0,
+          "version": "v13.5.4.3 (574-746c06c-release)",
+          "versionCode": 574,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_574-746c06c-release.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_574-746c06c-release.md",
+          "size": 1452599
         }
       ]
     },
