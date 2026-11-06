@@ -9,7 +9,7 @@
   "description": "My quality modules list and goated devs that makes quality modules (based on me)",
   "metadata": {
     "version": 1,
-    "timestamp": 1793943450.939896
+    "timestamp": 1793973219.221459
   },
   "modules": [
     {
@@ -119,8 +119,8 @@
     {
       "id": "hma-oss",
       "name": "HMA-OSS Zygisk",
-      "version": "oss-173",
-      "versionCode": 7304656,
+      "version": "oss-175",
+      "versionCode": 7304658,
       "author": "frknkrc44",
       "description": "A Zygisk backend for HMA-OSS",
       "categories": [
@@ -129,8 +129,8 @@
       ],
       "verified": false,
       "added": 0,
-      "timestamp": 1790729003.0,
-      "size": 2743824,
+      "timestamp": 1793961446.0,
+      "size": 2582384,
       "permissions": [
         "magisk.permission.ZYGISK",
         "magisk.permission.ACTION",
@@ -157,6 +157,14 @@
           "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-173_7304656.zip",
           "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-173_7304656.md",
           "size": 2743824
+        },
+        {
+          "timestamp": 1793961446.0,
+          "version": "oss-175",
+          "versionCode": 7304658,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-175_7304658.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-175_7304658.md",
+          "size": 2582384
         }
       ]
     },
@@ -520,14 +528,14 @@
     {
       "id": "zygisk-sui(fork)",
       "name": "Zygisk - Sui",
-      "version": "v13.5.4.3 (574-746c06c-release)",
-      "versionCode": 574,
+      "version": "v13.5.4.3 (576-3af0920-release)",
+      "versionCode": 576,
       "author": "Sui Contributors",
       "description": "Fork by XiaoTong.\\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
       "verified": false,
       "added": 0,
-      "timestamp": 1793695438.0,
-      "size": 1452599,
+      "timestamp": 1793949363.0,
+      "size": 1452547,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -552,14 +560,6 @@
       },
       "versions": [
         {
-          "timestamp": 1793080805.0,
-          "version": "v13.5.4.3 (572-201b29a-release)",
-          "versionCode": 572,
-          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_572-201b29a-release.zip",
-          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_572-201b29a-release.md",
-          "size": 1457158
-        },
-        {
           "timestamp": 1793337812.0,
           "version": "v13.5.4.3 (573-cab27cf-release)",
           "versionCode": 573,
@@ -574,6 +574,14 @@
           "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_574-746c06c-release.zip",
           "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_574-746c06c-release.md",
           "size": 1452599
+        },
+        {
+          "timestamp": 1793949363.0,
+          "version": "v13.5.4.3 (576-3af0920-release)",
+          "versionCode": 576,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_576-3af0920-release.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_576-3af0920-release.md",
+          "size": 1452547
         }
       ]
     },

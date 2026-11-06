@@ -1,9 +1,9 @@
+categories:
+- Tools
+- Must Have
 enable: true
 id: hma-oss
-last_update: 1790729003.0
+last_update: 1793961446.0
 source: https://github.com/frknkrc44/HMA-OSS
 update_to: https://furkank.net/hma_oss_update_checker.json
-versions: 1
-categories:
-  - "Tools"
-  - "Must Have"
+versions: 2
