@@ -17,6 +17,14 @@
       "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/ohmykeymint/1.2.5-17b0eb6_174.zip",
       "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/ohmykeymint/1.2.5-17b0eb6_174.md",
       "size": 4933635
+    },
+    {
+      "timestamp": 1793941230.0,
+      "version": "1.2.6-9069c6c",
+      "versionCode": 180,
+      "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/ohmykeymint/1.2.6-9069c6c_180.zip",
+      "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/ohmykeymint/1.2.6-9069c6c_180.md",
+      "size": 4930351
     }
   ]
 }

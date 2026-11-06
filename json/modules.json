@@ -9,7 +9,7 @@
   "description": "My quality modules list and goated devs that makes quality modules (based on me)",
   "metadata": {
     "version": 1,
-    "timestamp": 1793887948.24282
+    "timestamp": 1793943450.939896
   },
   "modules": [
     {
@@ -220,14 +220,14 @@
     {
       "id": "ohmykeymint",
       "name": "Oh My Keymint",
-      "version": "1.2.5-17b0eb6",
-      "versionCode": 174,
+      "version": "1.2.6-9069c6c",
+      "versionCode": 180,
       "author": "James Clef",
       "description": "Custom keystore implementation for Android Keystore Spoofer",
       "verified": false,
       "added": 0,
-      "timestamp": 1793369449.0,
-      "size": 4933635,
+      "timestamp": 1793941230.0,
+      "size": 4930351,
       "permissions": [
         "magisk.permission.SERVICE",
         "magisk.permission.POST_FS_DATA",
@@ -261,6 +261,14 @@
           "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/ohmykeymint/1.2.5-17b0eb6_174.zip",
           "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/ohmykeymint/1.2.5-17b0eb6_174.md",
           "size": 4933635
+        },
+        {
+          "timestamp": 1793941230.0,
+          "version": "1.2.6-9069c6c",
+          "versionCode": 180,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/ohmykeymint/1.2.6-9069c6c_180.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/ohmykeymint/1.2.6-9069c6c_180.md",
+          "size": 4930351
         }
       ]
     },
