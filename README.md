@@ -11,7 +11,7 @@ My collection of quality root modules.
 |---|---|---|---|
 | bindhosts | xx, KOWX712 | v2.1.5 | Systemless hosts for APatch, KernelSU and Magisk |
 | Encore Tweaks | Rem01Gaming | 5.2.2 (1571-47cdb70-main) | Special performance module for your Device. |
-| HMA-OSS Zygisk | frknkrc44 | oss-175 | A Zygisk backend for HMA-OSS |
+| HMA-OSS Zygisk | frknkrc44 | oss-177 | A Zygisk backend for HMA-OSS |
 | LSPosed | LSPosed Developers | v2.2.1 (7912) | Another enhanced implementation of Xposed Framework. Supports Android 9 ~ 17. Requires Zygisk enabled. |
 | mountify | xx, KOWX712 | v2.0.5 | Globally mounted modules via OverlayFS. |
 | Oh My Keymint | James Clef | 1.2.6-9069c6c | Custom keystore implementation for Android Keystore Spoofer |
