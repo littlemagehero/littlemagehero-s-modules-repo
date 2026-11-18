@@ -9,7 +9,7 @@
   "description": "My quality modules list and goated devs that makes quality modules (based on me)",
   "metadata": {
     "version": 1,
-    "timestamp": 1795015029.134091
+    "timestamp": 1795046372.712855
   },
   "modules": [
     {
@@ -119,8 +119,8 @@
     {
       "id": "hma-oss",
       "name": "HMA-OSS Zygisk",
-      "version": "oss-175",
-      "versionCode": 7304658,
+      "version": "oss-177",
+      "versionCode": 7304660,
       "author": "frknkrc44",
       "description": "A Zygisk backend for HMA-OSS",
       "categories": [
@@ -129,8 +129,8 @@
       ],
       "verified": false,
       "added": 0,
-      "timestamp": 1793961446.0,
-      "size": 2582384,
+      "timestamp": 1795034398.0,
+      "size": 2597526,
       "permissions": [
         "magisk.permission.ZYGISK",
         "magisk.permission.ACTION",
@@ -165,6 +165,14 @@
           "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-175_7304658.zip",
           "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-175_7304658.md",
           "size": 2582384
+        },
+        {
+          "timestamp": 1795034398.0,
+          "version": "oss-177",
+          "versionCode": 7304660,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-177_7304660.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-177_7304660.md",
+          "size": 2597526
         }
       ]
     },

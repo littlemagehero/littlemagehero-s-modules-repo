@@ -17,6 +17,14 @@
       "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-175_7304658.zip",
       "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-175_7304658.md",
       "size": 2582384
+    },
+    {
+      "timestamp": 1795034398.0,
+      "version": "oss-177",
+      "versionCode": 7304660,
+      "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-177_7304660.zip",
+      "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/hma-oss/oss-177_7304660.md",
+      "size": 2597526
     }
   ]
 }
