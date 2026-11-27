@@ -9,7 +9,7 @@
   "description": "My quality modules list and goated devs that makes quality modules (based on me)",
   "metadata": {
     "version": 1,
-    "timestamp": 1795727045.349413
+    "timestamp": 1795763841.589966
   },
   "modules": [
     {
@@ -536,17 +536,16 @@
     {
       "id": "zygisk-sui(fork)",
       "name": "Zygisk - Sui",
-      "version": "v13.5.4.3 (590-6844d95-release)",
-      "versionCode": 590,
+      "version": "v13.5.4.3 (595-9857c07-release)",
+      "versionCode": 595,
       "author": "Sui Contributors",
       "description": "Fork by XiaoTong.\\nModern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
       "verified": false,
       "added": 0,
-      "timestamp": 1795707758.0,
-      "size": 1505877,
+      "timestamp": 1795757880.0,
+      "size": 1608246,
       "permissions": [
         "magisk.permission.SERVICE",
-        "magisk.permission.POST_FS_DATA",
         "magisk.permission.SEPOLICY",
         "magisk.permission.ACTION",
         "mmrl.permission.APKS",
@@ -554,7 +553,6 @@
       ],
       "features": {
         "service": true,
-        "post_fs_data": true,
         "sepolicy": true,
         "action": true,
         "apks": true
@@ -567,14 +565,6 @@
         "build_metadata": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/track.yaml"
       },
       "versions": [
-        {
-          "timestamp": 1795263467.0,
-          "version": "v13.5.4.3 (587-f7dd660-release)",
-          "versionCode": 587,
-          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_587-f7dd660-release.zip",
-          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_587-f7dd660-release.md",
-          "size": 1505875
-        },
         {
           "timestamp": 1795422867.0,
           "version": "v13.5.4.3 (589-cb157fa-release)",
@@ -590,6 +580,14 @@
           "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_590-6844d95-release.zip",
           "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_590-6844d95-release.md",
           "size": 1505877
+        },
+        {
+          "timestamp": 1795757880.0,
+          "version": "v13.5.4.3 (595-9857c07-release)",
+          "versionCode": 595,
+          "zipUrl": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_595-9857c07-release.zip",
+          "changelog": "https://littlemagehero.github.io/littlemagehero-s-modules-repo/modules/zygisk-sui(fork)/v13.5.4.3_595-9857c07-release.md",
+          "size": 1608246
         }
       ]
     },
